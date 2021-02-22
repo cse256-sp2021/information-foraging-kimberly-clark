@@ -66,6 +66,10 @@
     font-size: 1.25em;
 }
 
+#classroom-news {
+    font-size: 2.5em;
+}
+
 .column a {
     color: #a51417;
     text-decoration: underline;
@@ -108,4 +112,22 @@ main hr {
     border: none;
     background-color: #eee;
     height: 1px;
+}
+
+#main-menu-container {
+    padding: 10px 16 px;
+}
+
+.first-image {
+    padding-top: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 43px;
+    width: 100%;
+}
+
+.sticky + .page-content {
+    padding-top: 100px;
 }

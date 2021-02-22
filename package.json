@@ -1,9 +1,9 @@
 {
-  "name": "information-foraging",
+  "name": "aws-credentials.json",
   "version": "1.0.0",
   "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
   "main": "./scripts/js/app.js",
-  "url": "put your repository's home page url here",
+  "url": "https://cse256-sp2021.github.io/information-foraging-kimberly-clark/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sandbox": "node ./deploy/sandbox.js",
@@ -26,5 +26,13 @@
     "tsify": "^4.0.1",
     "typescript": "^3.7.4",
     "watchify": "^3.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse256-sp2021/information-foraging-kimberly-clark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cse256-sp2021/information-foraging-kimberly-clark/issues"
+  },
+  "homepage": "https://github.com/cse256-sp2021/information-foraging-kimberly-clark#readme"
 }
