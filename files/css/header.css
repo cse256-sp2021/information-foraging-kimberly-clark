@@ -13,6 +13,7 @@ header {
 #main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
+    text-align: center;
 }
 
 
@@ -48,6 +49,10 @@ header {
     font-family: Arial;
 }
 
+.odd {
+    background-color: #636363;
+}
+
 /*first unordered list*/
 .nav-list-container{
     display: flex;
@@ -62,35 +67,41 @@ header {
     width: 400px;
     padding-top: 25px;
     padding-bottom: 15px;
+    flex-grow: 1;
+    /*padding-left: 50px;*/
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .nav-expand-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     display: none;
     position: relative;
     z-index: 1;
     background-color: #3d3d3d;
+    text-align: center;
 }
 
 .nav-expand-column-container{
     /*border-left: 0.25px solid gray;*/
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+    flex-grow: 1;
 }
 
 .nav-expand-list{
-    width: 400px;
+    /*width: 400px;*/
     list-style-type: none;
-    padding-left: 30px;
+    /*padding-left: 80px;*/
 }
 
 .nav-expand-item{
-    font-size: 18px;
+    font-size: 1.2em;
+    text-decoration: none;
 }
 
 li {
@@ -121,5 +132,3 @@ li {
 header a {
     color: white;
 }
-
-
