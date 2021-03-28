@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+    /*top: 420px;*/
+}
+
 body main {
     color: #555;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -21,6 +26,8 @@ main div {
     display: table;
     clear: both;
     width: 100%;
+    position: relative;
+    top: 330px;
 }
 
 main {
@@ -78,6 +85,7 @@ main h4 a {
     height: 400px;
     width: 100%;
     background-position: center;
+    position: relative;
 }
 
 .submit-button {

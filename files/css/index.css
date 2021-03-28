@@ -119,15 +119,20 @@ main hr {
 }
 
 .first-image {
-    padding-top: 16px;
+    padding-top: 0;
 }
 
-.sticky{
+/*.sticky{
     position: fixed;
     top: 43px;
     width: 100%;
-}
+}*/
 
 .sticky + .page-content {
     padding-top: 100px;
+}
+
+.page-content {
+    position: relative;
+    /*top: 220px;*/
 }
